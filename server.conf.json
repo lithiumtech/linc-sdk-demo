@@ -1,8 +1,0 @@
-{
-  "serverUrl": "http://ldn.stage.lithium.com",
-  "pluginToken": "d20321b4-dbfd-4094-86f5-a224859a6e9e",
-  "pluginUploadProtocol": "http",
-  "allowStudioOverrides": true,
-  "strictMode": false,
-  "dryRun": false
-}

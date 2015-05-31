@@ -1,6 +1,9 @@
 language: node_js
 node_js:
-  - "0.12"
-  - "0.11"
-  - "0.10"
-  - "iojs-v1.0.4" 
+- '0.12'
+- '0.11'
+- '0.10'
+- iojs-v1.0.4
+before_install:
+- openssl aes-256-cbc -K $encrypted_9366cd0b0c60_key -iv $encrypted_9366cd0b0c60_iv
+  -in server.conf.json.enc -out server.conf.json -d
