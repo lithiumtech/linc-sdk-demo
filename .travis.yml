@@ -11,4 +11,3 @@ before_install:
 - npm install -g lithium-sdk
 install:
 - npm install
-- li submit-plugin --force
