@@ -7,5 +7,7 @@ node_js:
 before_install:
 - openssl aes-256-cbc -K $encrypted_9366cd0b0c60_key -iv $encrypted_9366cd0b0c60_iv
   -in server.conf.json.enc -out server.conf.json -d
+- npm install -g gulp
 install:
 - npm install
+- gulp plugin --force
