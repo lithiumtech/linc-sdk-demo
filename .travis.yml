@@ -11,4 +11,4 @@ before_install:
 - npm install -g lithium-sdk
 install:
 - npm install
-- gulp plugin --force
+- li submit-plugin --force
