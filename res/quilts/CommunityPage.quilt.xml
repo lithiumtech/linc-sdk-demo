@@ -1,0 +1,25 @@
+<quilt layout="two-column.main-side" nestable="false">
+  <add to="common-header">
+    <component id="quilt:Header"/>
+  </add>
+  <add to="main-content">
+    <component id="sections.widget.sections-browser-taplet"/>
+    <component id="custom_content_2"/>
+  </add>
+  <add to="side-content">
+    <component id="community.widget.admin-links"/>
+    <component id="forums.widget.board-browser"/>
+    <component id="kudos.widget.authors-leaderboard"/>
+    <component id="kudos.widget.messages-leaderboard"/>
+    <component id="tags.widget.tag-cloud"/>
+    <component id="groups.widget.group-list-view"/>
+    <component id="custom_content_4"/>
+    <component id="forums.widget.polls"/>
+  </add>
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <remove from="breadcrumb" for="Header">
+    <component id="common.widget.breadcrumb"/>
+  </remove>
+</quilt>
