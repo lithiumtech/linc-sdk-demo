@@ -1,1 +1,1 @@
-test
+hello ${user.login}!
