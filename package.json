@@ -1,7 +1,7 @@
 {
   "name": "linc-sdk-demo",
   "dependencies": {
-    "lithium-sdk": "0.0.3",
+    "lithium-sdk": "0.0.4",
     "gulp": "3.8.11"
   },
   "engines": {
