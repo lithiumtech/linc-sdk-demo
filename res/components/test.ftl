@@ -1,1 +1,1 @@
-<div>hello ${user.login}</div>
+<div>hello ${user.login}!</div>
