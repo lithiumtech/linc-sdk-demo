@@ -29,3 +29,7 @@ node_modules
 # ignore plugin build dir and .lar file
 plugin
 *.lar
+
+# ignore server.conf.json -- don't want to check (non-encrypted version of) this in b/c it contains api key
+server.conf.json
+server.conf.json_*
