@@ -1,0 +1,14 @@
+<quilt layout="header" nestable="true">
+  <add to="feedback">
+    <component id="common.widget.page-information"/>
+    <component id="common.widget.page-feedback"/>
+    <component id="custom-header-banner"/>
+  </add>
+  <add to="search-bar">
+    <component id="common.widget.search-form"/>
+  </add>
+  <add to="breadcrumb">
+    <component id="common.widget.breadcrumb"/>
+  </add>
+</quilt>
+
